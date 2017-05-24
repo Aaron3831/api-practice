@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Get a stream by user!</h1>
+      <label for="twitchuser">Enter a twitch streamer:</label>
+      <input id="twitchuser" type="text">
+      <button class="btn-success" id="twitch-id">View the streamer</button>
+      <div class="showFollowersCount"></div>
+    </div>
+    <div class="container">
+      <h1>See the most recent follows for this person</h1>
+      <label for="twitchfollow">Enter a twitch streamer:</label>
+      <input id="twitchfollow" type="text">
+      <button class="btn-success" id="twitch-follow">View the streamer</button>
+      <div class="showFollowers"></div>
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="showUsers">
+
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class=showCreated>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1>See the currently featured streamers</h1>
+      <button class="btn-success" id="twitch-featured">View Streams</button>
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="showFeatured">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
