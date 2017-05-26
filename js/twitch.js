@@ -1,5 +1,4 @@
 Twitch = function(){
-
 }
 
 Twitch.prototype.followerCount = function(twitchuser, followerCountFront) {
